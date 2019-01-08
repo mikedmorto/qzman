@@ -4,6 +4,9 @@ namespace ZM {
 
 class ZMProject
 {
+        QVector<Zmtask> ZMTask;
+        char name;
+        bool locked;
 public:
     ZMProject();
 };
